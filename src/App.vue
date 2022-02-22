@@ -1,17 +1,19 @@
 <template>
     <h1>Hello</h1>
-    <!-- <HelloWorld msg="Hello World" />
-    <HelloWorld msg="My name is nirav" />
-    <HomeComp />
-    <TwoWay /> -->
-    <GetInput />
+    <!-- <HelloWorld msg="Hello World" /> -->
+    <!-- <HelloWorld msg="My name is nirav" /> -->
+    <!-- <HomeComp /> -->
+    <!-- <TwoWay /> -->
+    <!-- <GetInput /> -->
+    <CheckboxRadio />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import HomeComp from './components/HomeComp.vue'
 // import TwoWay from './components/TwoWay.vue'
-import GetInput from './components/GetInput.vue'
+// import GetInput from './components/GetInput.vue'
+import CheckboxRadio from './components/CheckboxRadio.vue'
 
 export default {
     name: 'App',
@@ -24,7 +26,8 @@ export default {
         // HelloWorld,
         // HomeComp,
         // TwoWay,
-        GetInput
+        // GetInput,
+        CheckboxRadio,
     }
 }
 </script>
