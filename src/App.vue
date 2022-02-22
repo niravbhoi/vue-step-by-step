@@ -6,7 +6,8 @@
     <!-- <TwoWay /> -->
     <!-- <GetInput /> -->
     <!-- <CheckboxRadio /> -->
-    <IfElse />
+    <!-- <IfElse /> -->
+    <ForLoop />
 </template>
 
 <script>
@@ -15,7 +16,8 @@
 // import TwoWay from './components/TwoWay.vue'
 // import GetInput from './components/GetInput.vue'
 // import CheckboxRadio from './components/CheckboxRadio.vue'
-import IfElse from './components/IfElse.vue'
+// import IfElse from './components/IfElse.vue'
+import ForLoop from './components/ForLoop.vue'
 
 export default {
     name: 'App',
@@ -30,7 +32,8 @@ export default {
         // TwoWay,
         // GetInput,
         // CheckboxRadio,
-        IfElse,
+        // IfElse,
+        ForLoop
     }
 }
 </script>
