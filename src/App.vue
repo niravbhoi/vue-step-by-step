@@ -1,18 +1,21 @@
+// <HelloWorld msg="Hello World" />
+// <HelloWorld msg="My name is nirav" />
+// <HomeComp />
 <template>
-<HelloWorld msg="Hello World" />
-<HelloWorld msg="My name is nirav" />
-<HomeComp />
+    <TwoWay />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import HomeComp from './components/HomeComp.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import HomeComp from './components/HomeComp.vue'
+import TwoWay from './components/TwoWay.vue'
 
 export default {
     name: 'App',
     components: {
-        HelloWorld,
-        HomeComp,
+        // HelloWorld,
+        // HomeComp,
+        TwoWay,
     }
 }
 </script>
