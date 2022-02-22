@@ -1,11 +1,12 @@
 <template>
-    <h1>Hello</h1>
+    <h1>Vuejs</h1>
     <!-- <HelloWorld msg="Hello World" /> -->
     <!-- <HelloWorld msg="My name is nirav" /> -->
     <!-- <HomeComp /> -->
     <!-- <TwoWay /> -->
     <!-- <GetInput /> -->
-    <CheckboxRadio />
+    <!-- <CheckboxRadio /> -->
+    <IfElse />
 </template>
 
 <script>
@@ -13,7 +14,8 @@
 // import HomeComp from './components/HomeComp.vue'
 // import TwoWay from './components/TwoWay.vue'
 // import GetInput from './components/GetInput.vue'
-import CheckboxRadio from './components/CheckboxRadio.vue'
+// import CheckboxRadio from './components/CheckboxRadio.vue'
+import IfElse from './components/IfElse.vue'
 
 export default {
     name: 'App',
@@ -27,7 +29,8 @@ export default {
         // HomeComp,
         // TwoWay,
         // GetInput,
-        CheckboxRadio,
+        // CheckboxRadio,
+        IfElse,
     }
 }
 </script>
