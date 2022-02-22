@@ -7,7 +7,8 @@
     <!-- <GetInput /> -->
     <!-- <CheckboxRadio /> -->
     <!-- <IfElse /> -->
-    <ForLoop />
+    <!-- <ForLoop /> -->
+    <ParentComp/>
 </template>
 
 <script>
@@ -17,13 +18,13 @@
 // import GetInput from './components/GetInput.vue'
 // import CheckboxRadio from './components/CheckboxRadio.vue'
 // import IfElse from './components/IfElse.vue'
-import ForLoop from './components/ForLoop.vue'
+// import ForLoop from './components/ForLoop.vue'
+import ParentComp from './components/ParentComp.vue'
 
 export default {
     name: 'App',
     data(){
         return {
-
         }
     },
     components: {
@@ -33,7 +34,8 @@ export default {
         // GetInput,
         // CheckboxRadio,
         // IfElse,
-        ForLoop
+        // ForLoop,
+        ParentComp,
     }
 }
 </script>
