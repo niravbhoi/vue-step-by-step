@@ -9,7 +9,8 @@
     <!-- <IfElse /> -->
     <!-- <ForLoop /> -->
     <!-- <ParentComp/> -->
-    <UserList />
+    <!-- <UserList /> -->
+    <HtmlBinding />
 </template>
 
 <script>
@@ -21,7 +22,8 @@
 // import IfElse from './components/IfElse.vue'
 // import ForLoop from './components/ForLoop.vue'
 // import ParentComp from './components/ParentComp.vue'
-import UserList from './components/UserList.vue'
+// import UserList from './components/UserList.vue'
+import HtmlBinding from './components/HtmlBinding.vue'
 
 export default {
     name: 'App',
@@ -38,7 +40,8 @@ export default {
         // IfElse,
         // ForLoop,
         // ParentComp,
-        UserList
+        // UserList,
+        HtmlBinding,
     }
 }
 </script>
