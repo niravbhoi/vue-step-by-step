@@ -1,5 +1,10 @@
 <template>
     <h1>Simple Form</h1>
+    <ul>
+        <li v-for="item in error" :key="item">
+            {{ item }} is not valid
+        </li>
+    </ul>
     <form action="">
         <label for="">Email : </label>
         <input type="text" name="email" placeholder="Enter Email" v-model="form.email" />
@@ -42,12 +47,22 @@ export default {
                 country:'',
                 technologies:[],
                 gender:'',
-            }
+            },
+            error:[],
         }
     },
     methods:{
         login(){
-            console.log("logindata", this.form);
+            this.error = [];
+            for(const field in this.form){
+                if(this.form[field] === "" || this.form[field].length === 0){
+                    this.error.push(field);
+                }
+            }
+            console.log(this.form,this.error);
+            if(this.error.length === 0){
+                alert("Form submitted successfully");
+            }
         }
     }
 }
