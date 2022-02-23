@@ -10,7 +10,8 @@
     <!-- <ForLoop /> -->
     <!-- <ParentComp/> -->
     <!-- <UserList /> -->
-    <HtmlBinding />
+    <!-- <HtmlBinding /> -->
+    <ClassBinding />
 </template>
 
 <script>
@@ -23,7 +24,8 @@
 // import ForLoop from './components/ForLoop.vue'
 // import ParentComp from './components/ParentComp.vue'
 // import UserList from './components/UserList.vue'
-import HtmlBinding from './components/HtmlBinding.vue'
+// import HtmlBinding from './components/HtmlBinding.vue'
+import ClassBinding from './components/ClassBinding.vue'
 
 export default {
     name: 'App',
@@ -41,7 +43,8 @@ export default {
         // ForLoop,
         // ParentComp,
         // UserList,
-        HtmlBinding,
+        // HtmlBinding,
+        ClassBinding,
     }
 }
 </script>
