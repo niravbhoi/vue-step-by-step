@@ -12,7 +12,8 @@
     <!-- <UserList /> -->
     <!-- <HtmlBinding /> -->
     <!-- <ClassBinding /> -->
-    <UserData />
+    <!-- <UserData /> -->
+    <UseRef />
 </template>
 
 <script>
@@ -27,7 +28,8 @@
 // import UserList from './components/UserList.vue'
 // import HtmlBinding from './components/HtmlBinding.vue'
 // import ClassBinding from './components/ClassBinding.vue'
-import UserData from './components/UserData.vue'
+// import UserData from './components/UserData.vue'
+import UseRef from './components/UseRef.vue'
 
 export default {
     name: 'App',
@@ -47,7 +49,8 @@ export default {
         // UserList,
         // HtmlBinding,
         // ClassBinding,
-        UserData,
+        // UserData,
+        UseRef,
     }
 }
 </script>
