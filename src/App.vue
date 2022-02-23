@@ -13,7 +13,8 @@
     <!-- <HtmlBinding /> -->
     <!-- <ClassBinding /> -->
     <!-- <UserData /> -->
-    <UseRef />
+    <!-- <UseRef /> -->
+    <SimpleForm />
 </template>
 
 <script>
@@ -29,7 +30,8 @@
 // import HtmlBinding from './components/HtmlBinding.vue'
 // import ClassBinding from './components/ClassBinding.vue'
 // import UserData from './components/UserData.vue'
-import UseRef from './components/UseRef.vue'
+// import UseRef from './components/UseRef.vue'
+import SimpleForm from './components/SimpleForm.vue'
 
 export default {
     name: 'App',
@@ -50,7 +52,8 @@ export default {
         // HtmlBinding,
         // ClassBinding,
         // UserData,
-        UseRef,
+        // UseRef,
+        SimpleForm,
     }
 }
 </script>
