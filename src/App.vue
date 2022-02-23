@@ -11,7 +11,8 @@
     <!-- <ParentComp/> -->
     <!-- <UserList /> -->
     <!-- <HtmlBinding /> -->
-    <ClassBinding />
+    <!-- <ClassBinding /> -->
+    <UserData />
 </template>
 
 <script>
@@ -25,7 +26,8 @@
 // import ParentComp from './components/ParentComp.vue'
 // import UserList from './components/UserList.vue'
 // import HtmlBinding from './components/HtmlBinding.vue'
-import ClassBinding from './components/ClassBinding.vue'
+// import ClassBinding from './components/ClassBinding.vue'
+import UserData from './components/UserData.vue'
 
 export default {
     name: 'App',
@@ -44,7 +46,8 @@ export default {
         // ParentComp,
         // UserList,
         // HtmlBinding,
-        ClassBinding,
+        // ClassBinding,
+        UserData,
     }
 }
 </script>
