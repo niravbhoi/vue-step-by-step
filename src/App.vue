@@ -1,5 +1,8 @@
 <template>
-    <h1>Vuejs</h1>
+    <router-link to="/">Home</router-link><br />
+    <router-link to="/aboutus">About Us</router-link><br />
+    <router-link to="/contactus">Contact Us</router-link><br />
+    <router-view></router-view>
     <!-- <HelloWorld msg="Hello World" /> -->
     <!-- <HelloWorld msg="My name is nirav" /> -->
     <!-- <HomeComp /> -->
@@ -16,10 +19,10 @@
     <!-- <UseRef /> -->
     <!-- <SimpleForm /> -->
     <!-- <SlotParent /> -->
-    <DynamicComponent />
+    <!-- <DynamicComponent />
     <teleport to='#footer'>
         <FooterComp />
-    </teleport>
+    </teleport> -->
 </template>
 
 <script>
@@ -38,8 +41,8 @@
 // import UseRef from './components/UseRef.vue'
 // import SimpleForm from './components/SimpleForm.vue'
 // import SlotParent from './components/SlotParent.vue'
-import DynamicComponent from './components/DynamicComponent.vue'
-import FooterComp from './components/FooterComp.vue'
+// import DynamicComponent from './components/DynamicComponent.vue'
+// import FooterComp from './components/FooterComp.vue'
 
 export default {
     name: 'App',
@@ -63,8 +66,8 @@ export default {
         // UseRef,
         // SimpleForm,
         // SlotParent,
-        DynamicComponent,
-        FooterComp,
+        // DynamicComponent,
+        // FooterComp,
     }
 }
 </script>
