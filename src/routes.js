@@ -4,6 +4,7 @@ import AboutUs from './components/AboutUs.vue'
 import ContactUs from './components/ContactUs.vue'
 import ProfileDetail from './components/ProfileDetail.vue'
 import PageNotFound from './components/PageNotFound.vue'
+import ListApi from './components/ListApi.vue'
 
 const routes = [
     {
@@ -25,6 +26,11 @@ const routes = [
         name: 'Profile',
         path: '/profile/:name',
         component: ProfileDetail
+    },
+    {
+        name: 'List',
+        path: '/list',
+        component: ListApi
     },
     {
         name: 'PageNotFound',
