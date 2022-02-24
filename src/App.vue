@@ -14,7 +14,8 @@
     <!-- <ClassBinding /> -->
     <!-- <UserData /> -->
     <!-- <UseRef /> -->
-    <SimpleForm />
+    <!-- <SimpleForm /> -->
+    <SlotParent />
 </template>
 
 <script>
@@ -31,7 +32,8 @@
 // import ClassBinding from './components/ClassBinding.vue'
 // import UserData from './components/UserData.vue'
 // import UseRef from './components/UseRef.vue'
-import SimpleForm from './components/SimpleForm.vue'
+// import SimpleForm from './components/SimpleForm.vue'
+import SlotParent from './components/SlotParent.vue'
 
 export default {
     name: 'App',
@@ -53,7 +55,8 @@ export default {
         // ClassBinding,
         // UserData,
         // UseRef,
-        SimpleForm,
+        // SimpleForm,
+        SlotParent,
     }
 }
 </script>
