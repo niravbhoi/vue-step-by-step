@@ -4,6 +4,7 @@
     <router-link to="/contactus">Contact Us</router-link><br />
     <router-link to="/profile/nirav">Nirav's Profile</router-link><br />
     <router-link to="/list">List API</router-link><br />
+    <router-link to="/form">Form</router-link><br />
     <router-link to="/anything">404</router-link><br />
     <router-view></router-view>
     <!-- <HelloWorld msg="Hello World" /> -->

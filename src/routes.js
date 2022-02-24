@@ -5,6 +5,7 @@ import ContactUs from './components/ContactUs.vue'
 import ProfileDetail from './components/ProfileDetail.vue'
 import PageNotFound from './components/PageNotFound.vue'
 import ListApi from './components/ListApi.vue'
+import FormSubmit from './components/FormSubmit.vue'
 
 const routes = [
     {
@@ -31,6 +32,11 @@ const routes = [
         name: 'List',
         path: '/list',
         component: ListApi
+    },
+    {
+        name: 'FormSubmit',
+        path: '/form',
+        component: FormSubmit
     },
     {
         name: 'PageNotFound',
