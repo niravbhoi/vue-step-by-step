@@ -3,6 +3,7 @@ import HomePage from './components/HomePage.vue'
 import AboutUs from './components/AboutUs.vue'
 import ContactUs from './components/ContactUs.vue'
 import ProfileDetail from './components/ProfileDetail.vue'
+import PageNotFound from './components/PageNotFound.vue'
 
 const routes = [
     {
@@ -24,6 +25,11 @@ const routes = [
         name: 'Profile',
         path: '/profile/:name',
         component: ProfileDetail
+    },
+    {
+        name: 'PageNotFound',
+        path: '/:pathMatch(.*)*',
+        component: PageNotFound
     }
 ]
 
