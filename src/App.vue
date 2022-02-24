@@ -15,7 +15,8 @@
     <!-- <UserData /> -->
     <!-- <UseRef /> -->
     <!-- <SimpleForm /> -->
-    <SlotParent />
+    <!-- <SlotParent /> -->
+    <DynamicComponent />
 </template>
 
 <script>
@@ -33,7 +34,8 @@
 // import UserData from './components/UserData.vue'
 // import UseRef from './components/UseRef.vue'
 // import SimpleForm from './components/SimpleForm.vue'
-import SlotParent from './components/SlotParent.vue'
+// import SlotParent from './components/SlotParent.vue'
+import DynamicComponent from './components/DynamicComponent.vue'
 
 export default {
     name: 'App',
@@ -56,7 +58,8 @@ export default {
         // UserData,
         // UseRef,
         // SimpleForm,
-        SlotParent,
+        // SlotParent,
+        DynamicComponent,
     }
 }
 </script>
