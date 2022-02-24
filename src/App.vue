@@ -17,6 +17,9 @@
     <!-- <SimpleForm /> -->
     <!-- <SlotParent /> -->
     <DynamicComponent />
+    <teleport to='#footer'>
+        <FooterComp />
+    </teleport>
 </template>
 
 <script>
@@ -36,6 +39,7 @@
 // import SimpleForm from './components/SimpleForm.vue'
 // import SlotParent from './components/SlotParent.vue'
 import DynamicComponent from './components/DynamicComponent.vue'
+import FooterComp from './components/FooterComp.vue'
 
 export default {
     name: 'App',
@@ -60,6 +64,7 @@ export default {
         // SimpleForm,
         // SlotParent,
         DynamicComponent,
+        FooterComp,
     }
 }
 </script>
